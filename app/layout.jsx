@@ -23,8 +23,8 @@ export default function RootLayout({ children }) {
                         <Footer />
                     </div>
                 </div>
-                  
-<script async src="https://stage-widget.intelswift.com/script.js?tenantId=835c3375-8bff-4f6b-94d0-dbbd537f5303&botId=67c6aa1e01b3e636a11e44a0&uuid=70907f9c-aaec-43dc-a0d4-7d82108c376a&end=true"></script>
+
+<script async src="https://stage-widget.intelswift.com/script.js?tenantId=835c3375-8bff-4f6b-94d0-dbbd537f5303&botId=67c6f37e01b3e636a11e4eed&uuid=70907f9c-aaec-43dc-a0d4-7d82108c376a&end=true"></script>
 <script>
   window.onload = (event) => {
     const propsInterval = setInterval(widgetTimer, 1000);
@@ -55,6 +55,7 @@ export default function RootLayout({ children }) {
     }
   };
 </script>
+                
                    
             </body>
         </html>
