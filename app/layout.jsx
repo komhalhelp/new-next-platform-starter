@@ -22,11 +22,11 @@ export default function RootLayout() {
                 />
 
                 {/* Інтеграція скриптів */}
-<script async src="https://stage-widget.intelswift.com/script.js?tenantId=f5c6bfd0-895d-4b43-8443-1116f6daea0a&botId=67cbf7abca1eece27c50c7d5&uuid=129fe57c-63d2-4d9a-8b84-0b813e65fda4&end=true"></script>            
-                <script
+<script async src="https://stage-widget.intelswift.com/script.js?tenantId=edd30677-c5a4-4db7-a9e2-d2b7076a3e07&botId=67cbfc9aca1eece27c50ca96&uuid=a82cdc57-4b9c-4806-a29b-392d1d3ddf6d&end=true"></script>
+<script>
                     dangerouslySetInnerHTML={{
                         __html: `
-                             window.onload = (event) => {
+                            window.onload = (event) => {
     const propsInterval = setInterval(widgetTimer, 1000);
 
     function widgetTimer() {
