@@ -23,7 +23,7 @@ export default function RootLayout() {
 
                 {/* Інтеграція скриптів */}
 
-<script async src="https://stage-widget.intelswift.com/script.js?tenantId=adf93120-af03-428d-8c62-8b1c29eac370&botId=67d97f1450c09bd76780882e&uuid=94edbae1-1192-4fa7-8ff2-4cb3dced935d&end=true"></script>      
+<script async src="https://stage-widget.intelswift.com/script.js?tenantId=526bfbbb-98a6-4cc2-87b0-edff222fdaa1&botId=67da9c3b6f9fbeb6af508f6b&uuid=7bba90d8-1b9d-40f9-83ff-039e6ec6ef1a&end=true"></script>    
                 <script
                     dangerouslySetInnerHTML={{
                         __html: `
