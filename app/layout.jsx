@@ -25,10 +25,8 @@ export default function RootLayout() {
 
 
 <script async src="https://widget.intelswift.com/script.js?tenantId=094f2d86-c31e-4a4c-b5b5-c890ee26399a&botId=6801f34f2c2f8c95aacb3769&uuid=90af0a1a-435e-4151-a8d5-dd3e3457d8fc&end=true"></script>
-                <script
-                    dangerouslySetInnerHTML={{
-                        __html: `
-                             window.onload = (event) => {
+<script>
+  window.onload = (event) => {
     const propsInterval = setInterval(widgetTimer, 1000);
 
     function widgetTimer() {
@@ -36,7 +34,7 @@ export default function RootLayout() {
       const botId = localStorage.getItem("wws-bot-id")
       const uuid = localStorage.getItem("wws-uuid")
       const host = window.location.hostname
-      const language = navigator.language || navigator.userLanguage; 
+      const language = navigator.language || navigator.userLanguage;
 
       if(
         (uuid && uuid != "undefined") && 
