@@ -32,7 +32,6 @@ export default function RootLayout() {
           }}
         />
         <script
-async
 	async
 	src="https://widget.intelswift.com/script.js"
 	data-tenant-id="0f4dd609-8fbd-4838-b8a9-e8d734fbff3c"
